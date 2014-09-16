@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Exemplo de Drop Down</title>
+</head>
+<body>
+	<select id="estados_id"name="estado">
+		<option value="SP">São Paulo</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="RS">Rio Grande do Sul</option>
+		<option value="RN">Rio Grande do Norte</option>
+	</select><br /><br />
+
+	<select id="estados_id"name="estado" multiple="multiple">
+		<option value="SP">São Paulo</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="RS">Rio Grande do Sul</option>
+		<option value="RN">Rio Grande do Norte</option>
+		<option value="BA">Bahia</option>
+		<option value="PR">Paraná</option>
+	</select><br /><br />
+
+	<select id="estados_id"name="estado">
+		<optgroup label="Região Sudeste">
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+		</optgroup>
+		<optgroup label="Região Sul">
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="PR">Paraná</option>
+		</optgroup>
+		<optgroup label="Região Nordeste">
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="BA">Bahia</option>
+		</optgroup>		
+	</select><br /><br />
+
+	<select id="estados_id"name="estado" multiple="multiple">
+		<optgroup label="Região Sudeste">
+			<option value="SP" selected>São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+		</optgroup>
+		<optgroup label="Região Sul">
+			<option value="RS" selected>Rio Grande do Sul</option>
+			<option value="PR">Paraná</option>
+		</optgroup>
+		<optgroup label="Região Nordeste">
+			<option value="RN" selected>Rio Grande do Norte</option>
+			<option value="BA">Bahia</option>
+		</optgroup>		
+	</select><br /><br />
+</body>
+</html>

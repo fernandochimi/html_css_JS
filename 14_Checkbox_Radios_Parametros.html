@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Exemplo de Checkboxes Parametros</title>
+</head>
+<body>
+	<form action="14_parametros.php" method="post">
+		<label for="sim_id">Newsletter: </label>
+		<input id="sim_id" name="newsletter" type="checkbox" value="sim" checked><br>
+
+
+		<label for="java_id">Java: </label>
+		<input id="java_id" name="linguagens" type="checkbox" value="java">
+		<label for="csharp_id">CSharp: </label>
+		<input id="csharp_id" name="linguagens" type="checkbox" value="csharp">
+		<label for="php_id">PHP: </label>
+		<input id="php_id" name="linguagens" type="checkbox" value="php">
+		<label for="python_id">Python: </label>
+		<input id="python_id" name="linguagens" type="checkbox" value="python" checked><br>
+
+		<label for="masculino_id">Masculino: </label>
+		<input id="masculino_id" name="sexo" type="radio" value="masculino"><br>
+
+		<label for="sp_id">São Paulo: </label>
+		<input id="sp_id" name="time-preferido" type="radio" value="sao-paulo">
+		<label for="barcelona_id">Barcelona: </label>
+		<input id="barcelona_id" name="time-preferido" type="radio" value="barcelona">
+		<label for="milan_id">Milan: </label>
+		<input id="milan_id" name="time-preferido" type="radio" value="milan">
+		<label for="corinthians_id">Corinthians: </label>
+		<input id="corinthians_id" name="time-preferido" type="radio" value="corinthians" checked><br>
+
+		<label for="cor_id">Cor: </label>
+		<input id="cor_id" name="cor" type="color"><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

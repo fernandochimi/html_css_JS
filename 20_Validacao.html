@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Exemplo de Validação</title>
+</head>
+<body>
+	<form action="14_parametros.php" method="post">
+		<input id="email_id" name="email" type="email"><br />
+		<input id="url_id" name="url" type="url"><br />
+		<input id="nome_id" name="nome" type="text" required><br />
+		<input id="placa_id" name="placa" type="text" pattern="[A-Z]{3} [0-9]{4}" title="Placas contém 3 letras e 4 números"><br />
+		<input id="idade_id" name="idade" type="number" min="18" max="60" title="Idade entre 18 e 60 anos"><br />
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

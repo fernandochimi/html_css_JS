@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Exemplo de Campos Fixos e Desabilitados com Botões</title>
+</head>
+<body>
+	<form action="14_parametros.php" method="post">
+		<input id="nome_id" name="nome" type="text" disabled><br />
+		<select id="estados_id"name="estado" disabled>
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RN">Rio Grande do Norte</option>
+		</select><br /><br />
+		<textarea disabled>
+		</textarea><br />
+		<button type="button" disabled>
+			Botão Desabilitado
+		</button><br />
+		<input id="nome_id" name="nome" type="text" value="Fernando" readonly><br />
+		<textarea readonly>
+			Gostaria de me matricular em Java
+		</textarea><br />
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

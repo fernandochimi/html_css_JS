@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Exemplo de Caixas de Entrada</title>
+</head>
+<body>
+	<form action="14_parametros.php" method="post">
+		<label for="keywords_id">Busca: </label>
+		<input id="keywords_id" name="keywords" type="search" placeholder="Busca"><br>
+
+		<label for="idade_id">Idade: </label>
+		<input id="idade_id" name="idade" type="number" min="18" max="60"><br>
+
+		<label for="curtiu_id">Curtiu: </label>
+		<input id="curtiu_id" name="curtiu" type="range" min="0" max="10"><br>
+
+		<label for="telefone_id">Telefone: </label>
+		<input id="telefone_id" name="telefone" type="tel" placeholder="Seu Telefone"><br>
+
+		<label for="site_id">Site: </label>
+		<input id="site_id" name="site" type="url" placeholder="Seu Site"><br>
+
+		<label for="nascimento_id">Nascimento: </label>
+		<input id="nascimento_id" name="nascimento" type="date"><br>
+
+		<label for="festa_aniversario_id">Festa de aniversário: </label>
+		<input id="festa_aniversario_id" name="festa_aniversario" type="datetime-local"><br>
+
+		<label for="semana_rock_in_rio_id">Semana do Rock in Rio: </label>
+		<input id="semana_rock_in_rio_id" name="semana_rock_in_rio" type="week"><br>
+
+		<label for="horario_de_entrada_id">Horário de Entrada: </label>
+		<input id="horario_de_entrada_id" name="horario_de_entrada" type="time"><br>
+
+		<label for="senha_id">Senha: </label>
+		<input id="senha_id" name="senha" type="password"><br>
+
+		<label for="mensagem_id">Mensagem: </label>
+		<textarea id="mensagem_id" name="mensagem" rows="5" cols="50" maxlength="150"></textarea><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
