@@ -1,0 +1,71 @@
+div {
+  margin: 70px;
+  border: 1px solid black;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+#div1 {
+  transform: translate(50px, -20px);
+
+  /* Webkit: Chrome, Safari */
+  -webkit-transform: translate(50px, -20px);
+
+  /* Moz: Firefox */
+  -moz-transform: translate(50px, -20px);
+
+  /* O: Opera */
+  -o-transform: translate(50px, -20px);
+
+  /* Ms: Internet Explorer */
+  -ms-transform: translate(50px, -20px);
+}
+
+#div2 {
+  transform: scale(0.5, 2);
+
+  /* Webkit: Chrome, Safari */
+  -webkit-transform: scale(0.5, 2);
+
+  /* Moz: Firefox */
+  -moz-transform: scale(0.5, 2);
+
+  /* O: Opera */
+  -o-transform: scale(0.5, 2);
+
+  /* Ms: Internet Explorer */
+  -ms-transform: scale(0.5, 2);
+}
+
+#div3 {
+  transform: rotate(15deg);
+
+  /* Webkit: Chrome, Safari */
+  -webkit-transform: rotate(15deg);
+
+  /* Moz: Firefox */
+  -moz-transform: rotate(15deg);
+
+  /* O: Opera */
+  -o-transform: rotate(15deg);
+
+  /* Ms: Internet Explorer */
+  -ms-transform: rotate(15deg);
+}
+
+#div4 {
+  transform: skew(10deg, -45deg);
+
+  /* Webkit: Chrome, Safari */
+  -webkit-transform: skew(10deg, -45deg);
+
+  /* Moz: Firefox */
+  -moz-transform: skew(10deg, -45deg);
+
+  /* O: Opera */
+  -o-transform: skew(10deg, -45deg);
+
+  /* Ms: Internet Explorer */
+  -ms-transform: skew(10deg, -45deg);
+}
